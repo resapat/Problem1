@@ -1,0 +1,18 @@
+echo "# Problem1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/resapat/Problem1.git
+git push -u origin master
+
+#This code will print out the first and last index of a string
+
+astring = "Information Technology rocks!"
+
+length = len(astring)
+
+lastchar = astring[length-1]
+
+print(astring)
+print(astring[0] + lastchar)
+
